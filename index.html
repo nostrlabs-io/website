@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nostrlabs.io</title>
+    <link rel="icon" type="image/webp" href="https://nostr.download/thumb/b7f6bd1e3951185e49a04f733de61d1658b710645a40a875d5d18fdbcadf85cd.webp">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gray-900 text-white">
+    <!-- Navbar -->
+    <nav class="container mx-auto px-6 py-4 flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+            <!-- Replace with your logo -->
+            <img src="https://nostr.download/b7f6bd1e3951185e49a04f733de61d1658b710645a40a875d5d18fdbcadf85cd.webp" alt="nostrlabs_logo" class="h-10 w-10 rounded-full overflow-hidden">
+            <span class="text-xl font-bold">nostrlabs</span>
+        </div>
+        <div class="space-x-6">
+            <a href="#features" class="hover:text-purple-400 transition-colors">Features</a>
+            <a href="#about" class="hover:text-purple-400 transition-colors">About</a>
+            <a href="#contact" class="hover:text-purple-400 transition-colors">Contact</a>
+
+            <a href="https://github.com/nostrlabs-io" target="_blank" class="hover:text-purple-400 transition-colors">GitHub</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="container mx-auto px-6 py-20 text-center">
+        <h1 class="text-5xl font-bold mb-6">
+            Building the Future of <span class="text-purple-400">Decentralized Apps</span>
+        </h1>
+        <p class="text-xl mb-8 max-w-2xl mx-auto">
+            nostrlabs creates innovative software solutions using the NOSTR protocol,
+            empowering users with truly decentralized applications.
+        </p>
+        <button class="bg-purple-600 hover:bg-purple-700 px-8 py-3 rounded-full text-lg font-semibold transition-colors">
+            Get Started
+        </button>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="container mx-auto px-6 py-20">
+        <h2 class="text-3xl font-bold text-center mb-12">Why Choose nostrlabs?</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-gray-800 p-6 rounded-lg hover:shadow-lg transition-shadow">
+                <h3 class="text-xl font-semibold mb-3">Decentralized</h3>
+                <p class="text-gray-300">Built on NOSTR protocol, ensuring true decentralization and user control</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg hover:shadow-lg transition-shadow">
+                <h3 class="text-xl font-semibold mb-3">Secure</h3>
+                <p class="text-gray-300">Advanced encryption and privacy-first design</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg hover:shadow-lg transition-shadow">
+                <h3 class="text-xl font-semibold mb-3">Scalable</h3>
+                <p class="text-gray-300">Robust infrastructure for growing communities</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto px-6 py-20 bg-gray-800 rounded-lg">
+        <h2 class="text-3xl font-bold text-center mb-6">About Us</h2>
+        <p class="text-lg max-w-3xl mx-auto text-center">
+            nostrlabs is a team of passionate developers dedicated to building the next
+            generation of decentralized applications using the NOSTR protocol. We believe
+            in empowering users with privacy, freedom, and control over their digital lives.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto px-6 py-20">
+        <h2 class="text-3xl font-bold text-center mb-12">Get in Touch</h2>
+        <div class="max-w-md mx-auto">
+            <form class="space-y-6">
+                <input
+                    type="text"
+                    placeholder="Name"
+                    class="w-full p-3 bg-gray-800 rounded-lg border border-gray-700 focus:outline-none focus:border-purple-400"
+                >
+                <input
+                    type="email"
+                    placeholder="Email"
+                    class="w-full p-3 bg-gray-800 rounded-lg border border-gray-700 focus:outline-none focus:border-purple-400"
+                >
+                <textarea
+                    placeholder="Message"
+                    rows="4"
+                    class="w-full p-3 bg-gray-800 rounded-lg border border-gray-700 focus:outline-none focus:border-purple-400"
+                ></textarea>
+                <button
+                    type="submit"
+                    class="w-full bg-purple-600 hover:bg-purple-700 px-8 py-3 rounded-lg font-semibold transition-colors"
+                >
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container mx-auto px-6 py-8 text-center border-t border-gray-800">
+        <p>© 2025 nostrlabs.io - All rights reserved</p>
+    </footer>
+</body>
+</html>
